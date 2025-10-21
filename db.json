@@ -1,0 +1,32 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "what is today's date?",
+      "id": "8a1a970d-b9b7-4eb3-95f4-6603fba9847f",
+      "createdAt": "2025-10-21T15:54:22.708Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Today's date is October 4, 2023.",
+      "refusal": null,
+      "annotations": [],
+      "id": "92942405-ca7f-424b-8928-5485f2d8c343",
+      "createdAt": "2025-10-21T15:54:23.369Z"
+    },
+    {
+      "role": "user",
+      "content": "what is today's date?",
+      "id": "a1461254-6bda-4655-ab29-cfc13ba490ea",
+      "createdAt": "2025-10-21T15:55:26.460Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Today's date is October 21, 2025.",
+      "refusal": null,
+      "annotations": [],
+      "id": "4cde94e9-00d6-456c-b34b-63d3568b9faa",
+      "createdAt": "2025-10-21T15:55:27.200Z"
+    }
+  ]
+}
