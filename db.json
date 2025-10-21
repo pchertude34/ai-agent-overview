@@ -2,31 +2,159 @@
   "messages": [
     {
       "role": "user",
-      "content": "what is today's date?",
-      "id": "8a1a970d-b9b7-4eb3-95f4-6603fba9847f",
-      "createdAt": "2025-10-21T15:54:22.708Z"
+      "content": "what is the weather today in salem oregon?",
+      "id": "a5d384f0-7067-43e9-ae26-1d0efd6a9173",
+      "createdAt": "2025-10-21T22:27:38.804Z"
     },
     {
       "role": "assistant",
-      "content": "Today's date is October 4, 2023.",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_88sqy5rfEFOrfDnf8Ql0LGR2",
+          "type": "function",
+          "function": {
+            "name": "get_current_weather",
+            "arguments": "{\"lat\":\"44.9429\",\"lon\":\"-123.0351\"}"
+          }
+        }
+      ],
       "refusal": null,
       "annotations": [],
-      "id": "92942405-ca7f-424b-8928-5485f2d8c343",
-      "createdAt": "2025-10-21T15:54:23.369Z"
+      "id": "263c8605-5700-4139-8c89-046b5c77360f",
+      "createdAt": "2025-10-21T22:27:39.652Z"
+    },
+    {
+      "role": "tool",
+      "content": "{}",
+      "tool_call_id": "call_88sqy5rfEFOrfDnf8Ql0LGR2",
+      "id": "fe6e02af-94e3-43d3-9041-0312a08dbebb",
+      "createdAt": "2025-10-21T22:27:39.865Z"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm unable to retrieve the current weather for Salem, Oregon at the moment. However, you can check a reliable weather website or app for the latest updates. If you have any other questions or need assistance, feel free to ask!",
+      "refusal": null,
+      "annotations": [],
+      "id": "8f458faa-f0b9-4c85-ac43-003077bee119",
+      "createdAt": "2025-10-21T22:27:41.353Z"
     },
     {
       "role": "user",
-      "content": "what is today's date?",
-      "id": "a1461254-6bda-4655-ab29-cfc13ba490ea",
-      "createdAt": "2025-10-21T15:55:26.460Z"
+      "content": "what is the weather today in salem oregon?",
+      "id": "d030694d-6cd4-4091-9447-81fae2d6cae8",
+      "createdAt": "2025-10-21T22:28:21.521Z"
     },
     {
       "role": "assistant",
-      "content": "Today's date is October 21, 2025.",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_hP6ZEcVspxJ8a7qT8RV5EjEd",
+          "type": "function",
+          "function": {
+            "name": "get_current_weather",
+            "arguments": "{\"lat\":\"44.9429\",\"lon\":\"-123.0351\"}"
+          }
+        }
+      ],
       "refusal": null,
       "annotations": [],
-      "id": "4cde94e9-00d6-456c-b34b-63d3568b9faa",
-      "createdAt": "2025-10-21T15:55:27.200Z"
+      "id": "c0d5e251-fb18-4fc7-8025-2d131f9480e9",
+      "createdAt": "2025-10-21T22:28:22.361Z"
+    },
+    {
+      "role": "tool",
+      "content": "{}",
+      "tool_call_id": "call_hP6ZEcVspxJ8a7qT8RV5EjEd",
+      "id": "b7667f48-4280-4351-8a18-c05352f42165",
+      "createdAt": "2025-10-21T22:28:22.446Z"
+    },
+    {
+      "role": "assistant",
+      "content": "I still can't access the current weather information for Salem, Oregon. I recommend checking a weather website or app for the most accurate and up-to-date information. If there's anything else you'd like to know, just let me know!",
+      "refusal": null,
+      "annotations": [],
+      "id": "73001213-d5f0-4c3f-a12e-feca7f197ae6",
+      "createdAt": "2025-10-21T22:28:23.657Z"
+    },
+    {
+      "role": "user",
+      "content": "what is the weather today in salem oregon?",
+      "id": "7a88eda8-9963-488a-b5ff-0cda57c5a80a",
+      "createdAt": "2025-10-21T22:30:27.687Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_gzhTgNW8yFQOxPuhN21ubkCP",
+          "type": "function",
+          "function": {
+            "name": "get_current_weather",
+            "arguments": "{\"lat\":\"44.9429\",\"lon\":\"-123.0351\"}"
+          }
+        }
+      ],
+      "refusal": null,
+      "annotations": [],
+      "id": "b4157cf2-8917-4eaa-8099-fe4aef661747",
+      "createdAt": "2025-10-21T22:30:30.303Z"
+    },
+    {
+      "role": "tool",
+      "content": "{\"data\":{\"coord\":{\"lon\":-123.0351,\"lat\":44.9429},\"weather\":[{\"id\":800,\"main\":\"Clear\",\"description\":\"clear sky\",\"icon\":\"01d\"}],\"base\":\"stations\",\"main\":{\"temp\":290.02,\"feels_like\":289.51,\"temp_min\":289.23,\"temp_max\":292.09,\"pressure\":1018,\"humidity\":67,\"sea_level\":1018,\"grnd_level\":1008},\"visibility\":10000,\"wind\":{\"speed\":3.09,\"deg\":0},\"clouds\":{\"all\":0},\"dt\":1761085569,\"sys\":{\"type\":2,\"id\":2090409,\"country\":\"US\",\"sunrise\":1761057355,\"sunset\":1761095830},\"timezone\":-25200,\"id\":5750162,\"name\":\"Salem\",\"cod\":200}}",
+      "tool_call_id": "call_gzhTgNW8yFQOxPuhN21ubkCP",
+      "id": "935cc9b9-dede-42ce-870a-ed40eb81d11d",
+      "createdAt": "2025-10-21T22:30:30.371Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Today in Salem, Oregon, the weather is clear with a temperature of approximately 64°F (18°C). Here are the details:\n\n- **Condition:** Clear sky\n- **Temperature:** 64°F (18°C)\n- **Feels Like:** 65°F (19°C)\n- **Humidity:** 67%\n- **Wind Speed:** 3.09 m/s (about 7 mph) from the north\n- **Visibility:** 10 km\n\nIt looks like a beautiful day! If you need more information, feel free to ask.",
+      "refusal": null,
+      "annotations": [],
+      "id": "3b735bf8-5385-49bc-875d-25bdd0b440da",
+      "createdAt": "2025-10-21T22:30:33.837Z"
+    },
+    {
+      "role": "user",
+      "content": "what is the weather today in madison wi?",
+      "id": "8273b885-a925-422b-a33d-2c91bdf806c2",
+      "createdAt": "2025-10-21T22:31:10.341Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_scJbEn29npmXCYf3xfVyMrR3",
+          "type": "function",
+          "function": {
+            "name": "get_current_weather",
+            "arguments": "{\"lat\":\"43.0731\",\"lon\":\"-89.4012\"}"
+          }
+        }
+      ],
+      "refusal": null,
+      "annotations": [],
+      "id": "0f32f931-c012-450a-829d-1f2429860b86",
+      "createdAt": "2025-10-21T22:31:11.464Z"
+    },
+    {
+      "role": "tool",
+      "content": "{\"data\":{\"coord\":{\"lon\":-89.4012,\"lat\":43.0731},\"weather\":[{\"id\":500,\"main\":\"Rain\",\"description\":\"light rain\",\"icon\":\"10d\"}],\"base\":\"stations\",\"main\":{\"temp\":280.07,\"feels_like\":277.9,\"temp_min\":279.44,\"temp_max\":280.95,\"pressure\":1005,\"humidity\":87,\"sea_level\":1005,\"grnd_level\":970},\"visibility\":10000,\"wind\":{\"speed\":3.09,\"deg\":320,\"gust\":7.72},\"rain\":{\"1h\":0.54},\"clouds\":{\"all\":100},\"dt\":1761085871,\"sys\":{\"type\":2,\"id\":2032790,\"country\":\"US\",\"sunrise\":1761049115,\"sunset\":1761087927},\"timezone\":-18000,\"id\":5261457,\"name\":\"Madison\",\"cod\":200}}",
+      "tool_call_id": "call_scJbEn29npmXCYf3xfVyMrR3",
+      "id": "3bd8e90e-3105-476e-bb08-d853b47a962f",
+      "createdAt": "2025-10-21T22:31:11.542Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Today in Madison, Wisconsin, the weather is characterized by light rain. Here are the details:\n\n- **Condition:** Light rain\n- **Temperature:** Approximately 46°F (8°C)\n- **Feels Like:** 46°F (8°C)\n- **Humidity:** 87%\n- **Wind Speed:** 3.09 m/s (about 7 mph) from the northwest\n- **Rainfall:** 0.54 mm in the last hour\n- **Cloud Cover:** 100%\n\nIt looks like a rainy day, so you might want to carry an umbrella if you're heading out! If you have any other questions, feel free to ask.",
+      "refusal": null,
+      "annotations": [],
+      "id": "49392172-2dae-422e-a2d5-d751d475ca1e",
+      "createdAt": "2025-10-21T22:31:14.339Z"
     }
   ]
 }
